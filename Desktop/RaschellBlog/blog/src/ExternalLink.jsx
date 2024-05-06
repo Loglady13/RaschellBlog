@@ -7,9 +7,9 @@ const ExternalLink = ({ url, children }) => {
   };
 
   return (
-    <h3 onClick={handleClick} style={{ cursor: 'pointer' }}>
+    <p onClick={handleClick} style={{ cursor: 'pointer' }}>
       {children}
-    </h3>
+    </p>
   );
 };
 

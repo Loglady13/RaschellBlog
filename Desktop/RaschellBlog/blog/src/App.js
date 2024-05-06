@@ -1,12 +1,16 @@
 import './App.css';
 import ExternalLink from './ExternalLink';
+import raschell from './images/raschell.jpg'
+import raschellCv from './images/RaschellCV.pdf'
+import facebook from './images/facebook.png'
+import instagram from './images/instagram.png'
 
 function App() {
   return (
     <div className="App">
       <div className="Header">
-      <div class="main-container">
-            <div class="logo-container">
+      <div className="main-container">
+            <div className="logo-container">
                 <a href="#"><strong>Raschell</strong> Jarquin</a>
             </div>
             <nav>
@@ -19,23 +23,23 @@ function App() {
         </div>
         </div>
         <section id="inicio">
-            <div class="txt-container main-container">
-                <div class="txt-intro">
-                    <h1 class="main-title">Welcome to my blog, I´m Raschell!</h1>
+            <div className="txt-container main-container">
+                <div className="txt-intro">
+                    <h1 className="main-title">Welcome to my blog, I´m Raschell!</h1>
                     <p>In this blog you can find some information about my training and experience in the academic and work field.</p>
                 </div>
-                <div class="btn">
-                    <a href="RaschellCV.pdf" target="_blank">Download CV</a>
+                <div className="btn">
+                    <a href={raschellCv} target="_blank">Download CV</a>
                 </div>
             </div>    
         </section>
         <section id="who">
-            <div class="contenido-who main-container">
-                <div class="img-who">
-                    <img src="raschell.jpg" alt="Raschell"></img>
+            <div className="contenido-who main-container">
+                <div className="img-who">
+                    <img src={raschell} alt="Raschell"></img>
                 </div>
-                <h2 class="main-title">About me</h2>
-                <div class="texto-who">
+                <h2 className="main-title">About me</h2>
+                <div className="texto-who">
                     <p>I am a Computer Engineering student at the Technological Institute of Costa Rica, I currently have knowledge in various areas, which I can highlight both frontend and backend web development, 
                       I have carried out various projects with various languages ​​such as JavaScript, TypeScript, Java, Python, C++, .NET, among others. In addition to experience working in frameworks such as Angular and React.</p>
                     <p></p>
@@ -44,40 +48,44 @@ function App() {
             </div>
         </section>
         <section id="proyectos">
-            <div class="contenedor-titulo">
-                <h2 class="main-title">Learn more about me</h2>
+            <div className="contenedor-titulo">
+                <h2 className="main-title">Learn more about me</h2>
 
             </div>
-            <div class="contenedor-cards main-container">
-                <div class="cards">
-                    <h4>01</h4>
+            <div className="contenedor-cards main-container">
+                <div className="cards">
+                    
                     <ExternalLink url="http://linkedin.com/in/raschell-jarqu%C3%ADn-quesada-64a57726b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-                    Linkedln
-                    </ExternalLink>
+                    <h4>01</h4>
+                    <p><strong>Linkedln</strong></p>
                     <p>In this section you can access my LinkedIn profile where you can learn more about my experience and skills</p>
+                    </ExternalLink>
+                   
 
                 </div>
-                <div class="cards">
-                    <h4>02</h4>
+                <div className="cards">
+                    
                     <ExternalLink url="https://github.com/Loglady13">
-                    Github Repositories
-                    </ExternalLink>
+                    <h4>02</h4>
+                    <p><strong>Github Repositories</strong></p>
                     <p>In this section you can access my GitHub repository, where you can see my work in more depth</p>
+                    </ExternalLink>
+                   
 
                 </div>
                 
             </div>
         </section>
       <section id="footer">
-        <div class="social-media">
-            <div class="social-media-box">
+        <div className="social-media">
+            <div className="social-media-box">
                 <a href="https://www.facebook.com/raschell.jarquinquesada">
-                  <img src='facebook.png' alt='icono de facebook'></img>
+                  <img src={facebook} alt='icono de facebook'></img>
                 </a>
             </div>
-            <div class="social-media-box">
+            <div className="social-media-box">
                 <a href="https://www.instagram.com/loglady13_/">
-                    <img src='instagram.png' alt='icono de instagram'></img>
+                    <img src={instagram} alt='icono de instagram'></img>
                 </a>
             </div>
         </div>
