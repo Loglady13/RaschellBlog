@@ -1,7 +1,7 @@
 import './App.css';
 import ExternalLink from './ExternalLink';
 import raschell from './images/raschell.jpg'
-import raschellCv from './images/RaschellCV.pdf'
+import raschellCv from './images/Raschell_CV.pdf'
 import facebook from './images/facebook.png'
 import instagram from './images/instagram.png'
 
