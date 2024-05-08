@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/RaschellBlog/static/css/main.510dd9ca.css",
-    "main.js": "/RaschellBlog/static/js/main.24974a9f.js",
+    "main.js": "/RaschellBlog/static/js/main.c90c3bed.js",
     "static/js/453.ede2c593.chunk.js": "/RaschellBlog/static/js/453.ede2c593.chunk.js",
+    "static/media/Raschell_CV.pdf": "/RaschellBlog/static/media/Raschell_CV.22119e91d83b4ca6fd89.pdf",
     "static/media/raschell.jpg": "/RaschellBlog/static/media/raschell.0a436a8af76ded97adf7.jpg",
-    "static/media/RaschellCV.pdf": "/RaschellBlog/static/media/RaschellCV.22d4c2e6bbaa72d801d5.pdf",
     "index.html": "/RaschellBlog/index.html",
     "main.510dd9ca.css.map": "/RaschellBlog/static/css/main.510dd9ca.css.map",
-    "main.24974a9f.js.map": "/RaschellBlog/static/js/main.24974a9f.js.map",
+    "main.c90c3bed.js.map": "/RaschellBlog/static/js/main.c90c3bed.js.map",
     "453.ede2c593.chunk.js.map": "/RaschellBlog/static/js/453.ede2c593.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.510dd9ca.css",
-    "static/js/main.24974a9f.js"
+    "static/js/main.c90c3bed.js"
   ]
 }
